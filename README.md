@@ -18,5 +18,6 @@ Examples -
 GET /api/visitors?date=dateInMilliseconds&ignore=museumToIgnore
 
 To setup run the foloowing inside source directory -
-Step 1 :  npm i 
+Step 1 :  npm install 
 Step 2 : nodemon index.js
+
