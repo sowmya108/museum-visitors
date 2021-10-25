@@ -22,7 +22,7 @@ const appRouter = (app) => {
                 ignoreKey = queryObject.ignore;
             }
         } else {
-            returnres.json(`<br/> Please pass date query param with time in millisecond <br/> Example - http://localhost:3001/api/visitors?date=1543602600000`);
+            return res.json(`<br/> Please pass date query param with time in millisecond <br/> Example - http://localhost:3001/api/visitors?date=1543602600000`);
         }
         axios.get(museumDataEndPoint).then(response => {
             response.data.map(element => {
